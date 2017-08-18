@@ -8,7 +8,7 @@ import java.util.concurrent.RecursiveTask;
 
 public class CountTask extends RecursiveTask<Integer>{
 
-	private static final int THRESHOLD = 2;
+	private static final int THRESHOLD = 50000000;
 	private int start;
 	private int end;
 	public CountTask(int start ,int end){
